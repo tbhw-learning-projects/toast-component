@@ -31,7 +31,7 @@ function Toast({ variant = "notice", children, handleDismiss }) {
         {children}
       </p>
       <button
-        aria-label="Dismiss message"
+        aria-label="Dismiss notification"
         aria-live="off"
         className={styles.closeButton}
         onClick={handleDismiss}
